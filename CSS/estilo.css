@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: url("/Imagens/fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 22px;
+    background: linear-gradient(38.10deg, #262c3a 16.62%, #254a7a 85.61%);
+}
+
+.menu-logo{
+    height: 80px;
+}
+
+.menu-paginas{
+    display: flex;
+    gap: 25px;
+}
+
+.paginas{
+    font-family: 'Smokum', cursive;
+    font-size: 45px;
+    font-weight: 400;
+    color: #80a9df;
+}
+
+.conteudo{
+    margin-bottom: 30px;
+    border-top: 0.4px solid #80a9df;
+    background: linear-gradient(35.5deg, #384764 16.62%, #3163a5 85.61%);
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.titulo{
+    font-family:'Fredoka', sans-serif; 
+    font-weight: 300;
+    font-size: 65px;
+    color: #020e25;
+}
+
+.subtitulo{
+    font-family:'Work Sans', sans-serif;
+    font-weight: 200;
+    font-size: 48px;
+    color: #80a9df;
+}
+
+.texto-principal{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    gap: 20px;
+}
+
+.corvo{
+    width: 250px;
+    border-bottom: 0.4px solid rgb(10, 45, 59);
+    
+}
+
+.caixa-de-texto{
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 5px solid deepskyblue;
+    border-radius: 15px;
+    background-color: black;
+    color:  rgb(98, 207, 250);
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+ }
+
+.texto-secundario{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
+ol{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    list-style: none;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-family:'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #020e25;
+    font-style: oblique;
+}
+
+p{
+    color: #b6cff0;
+    font-family:'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.imagensPS2{
+    width: 125px;
+    height: 150px;
+}
+
+.tabela-PS2{
+    box-shadow: 10px 5px 5px black;
+    background-color: #80a9df;
+    width: 200px;
+    height: 200px;
+ }
+
+.titulo-jogo{
+    text-align: center;
+    color: #020e25;
+    font-size: 16px;
+}
