@@ -13,6 +13,10 @@ body{
     background-image: url("/Imagens/fundo.png");
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+
+.header-main{
     padding-left: 60px;
     padding-right: 60px;
 }
@@ -43,7 +47,7 @@ body{
 }
 
 .conteudo{
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     border-top: 0.4px solid #80a9df;
     background: linear-gradient(35.5deg, #384764 16.62%, #3163a5 85.61%);
 }
@@ -151,4 +155,24 @@ p{
     text-align: center;
     color: #020e25;
     font-size: 16px;
+}
+
+footer{
+    background-color: #020711;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    border-top: 0.4px solid #80a9df;
+}
+
+.footer-logo{
+    width: 50px;
+}
+
+.footer-texto{
+    font-size: 16px;
+    font-weight: 600;
+    
 }
