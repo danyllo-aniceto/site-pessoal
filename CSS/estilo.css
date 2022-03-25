@@ -2,26 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 
-body{
+body {
     background-image: url("/Imagens/fundo.png");
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
-.header-main{
+.header-main {
     padding-left: 60px;
     padding-right: 60px;
 }
 
-.menu{
+.menu {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -30,29 +30,29 @@ body{
     background: linear-gradient(38.10deg, #262c3a 16.62%, #254a7a 85.61%);
 }
 
-.menu-logo{
+.menu-logo {
     height: 80px;
 }
 
-.menu-paginas{
+.menu-paginas {
     display: flex;
     gap: 25px;
 }
 
-.paginas{
+.paginas {
     font-family: 'Smokum', cursive;
     font-size: 45px;
     font-weight: 400;
     color: #80a9df;
 }
 
-.conteudo{
+.conteudo {
     padding-bottom: 30px;
     border-top: 0.4px solid #80a9df;
     background: linear-gradient(35.5deg, #384764 16.62%, #3163a5 85.61%);
 }
 
-.conteudo-principal{
+.conteudo-principal {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -60,52 +60,50 @@ body{
     align-items: center;
 }
 
-.titulo{
-    font-family:'Fredoka', sans-serif; 
+.titulo {
+    font-family: 'Fredoka', sans-serif;
     font-weight: 300;
     font-size: 65px;
     color: #020e25;
 }
 
-.subtitulo{
-    font-family:'Work Sans', sans-serif;
+.subtitulo {
+    font-family: 'Work Sans', sans-serif;
     font-weight: 200;
     font-size: 48px;
     color: #80a9df;
 }
 
-.texto-principal{
+.texto-principal {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
     gap: 20px;
 }
 
-.corvo{
+.corvo {
     width: 250px;
     border-bottom: 0.4px solid rgb(10, 45, 59);
-    
+
 }
 
-.caixa-de-texto{
+.caixa-de-texto {
     width: 100%;
     padding: 10px 10px;
     box-sizing: border-box;
     border: 5px solid deepskyblue;
     border-radius: 15px;
     background-color: black;
-    color:  rgb(98, 207, 250);
+    color: rgb(98, 207, 250);
 }
 
-.conteudo-secundario{
+.conteudo-secundario {
     display: flex;
     flex-direction: row;
     margin-top: 40px;
-    display: flex;
     justify-content: space-around;
- }
+}
 
-.texto-secundario{
+.texto-secundario {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -113,51 +111,52 @@ body{
 }
 
 
-ol{
+ol {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     list-style: none;
+    margin-left: 10px;
 }
 
-li{
+li {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    font-family:'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 20px;
     color: #020e25;
     font-style: oblique;
 }
 
-p{
+p {
     color: #b6cff0;
-    font-family:'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 20px;
     font-style: normal;
 }
 
-.imagensPS2{
+.imagensPS2 {
     width: 125px;
     height: 150px;
 }
 
-.tabela-PS2{
+.tabela-PS2 {
     box-shadow: 10px 5px 5px black;
     background-color: #80a9df;
     width: 200px;
     height: 200px;
- }
+}
 
-.titulo-jogo{
+.titulo-jogo {
     text-align: center;
     color: #020e25;
     font-size: 16px;
 }
 
-footer{
+footer {
     background-color: #020711;
     display: flex;
     justify-content: space-around;
@@ -167,12 +166,139 @@ footer{
     border-top: 0.4px solid #80a9df;
 }
 
-.footer-logo{
+.footer-logo {
     width: 50px;
 }
 
-.footer-texto{
+.footer-texto {
     font-size: 16px;
     font-weight: 600;
-    
+
+}
+
+/***** MAX-840 MIN-601 ******/
+@media (max-width: 840px) {
+    .header-main {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu-paginas {
+        display: flex;
+        gap: 30px;
+    }
+
+    .conteudo {
+        padding-top: 20px;
+    }
+
+    .titulo {
+        font-size: 70px;
+    }
+
+    .subtitulo {
+        font-size: 50px;
+    }
+
+    .corvo {
+        width: 200px;
+    }
+
+    .conteudo-secundario {
+        display: flex;
+        flex-direction: column;
+        margin-top: 65px;
+        margin-bottom: 40px;
+        gap: 25px;
+    }
+
+    li, p {
+        font-size: 28px;
+    }
+
+    .tabela-PS2 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .imagensPS2 {
+        width: 150px;
+        height: 175px;
+    }
+
+    .titulo-jogo {
+        font-size: 20px;
+    }
+
+    .footer-logo, .icone {
+        width: 40px;
+    }
+
+    .footer-texto {
+        font-size: 14px;
+    }
+
+}
+
+/**** MAX=600 MIN-461 *****/
+@media (max-width: 600px) {
+    .header-main {
+        padding: 0;
+    }
+
+    .paginas {
+        font-size: 38px;
+    }
+
+    .conteudo-principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 22px;
+    }
+
+    li, p {
+        font-size: 23px;
+    }
+}
+
+/**** MAX-460 MIN-0 *****/
+@media (max-width: 460px) {
+    .header-main {
+        padding: 0px;
+    }
+
+    .menu-logo {
+        width: 50px;
+        height: 75px;
+    }
+
+    .paginas {
+        font-size: 30px;
+    }
+
+    .corvo {
+        width: 250px;
+    }
+
+    .tabela-PS2 {
+        width: 10px;
+        height: 10px;
+    }
+
+    .imagensPS2 {
+        width: 100px;
+        height: 125px;
+    }
+
+    .titulo-jogo {
+        font-size: 20px;
+    }
 }
