@@ -46,6 +46,8 @@ body {
     color: #80a9df;
 }
 
+/***** INICIO PAGINA INICIAL ******/
+
 .conteudo {
     padding-bottom: 30px;
     border-top: 0.4px solid #80a9df;
@@ -143,6 +145,7 @@ p {
     height: 150px;
 }
 
+
 .tabela-PS2 {
     box-shadow: 10px 5px 5px black;
     background-color: #80a9df;
@@ -155,6 +158,8 @@ p {
     color: #020e25;
     font-size: 16px;
 }
+
+/***** FIM PAGINA INICIAL ******/
 
 footer {
     background-color: #020711;
@@ -175,6 +180,29 @@ footer {
     font-weight: 600;
 
 }
+
+/***** INICIO FOTOS ******/
+.conteudo-principal-fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 85px;
+    gap: 20px;
+}
+
+.numero404 {
+    font-size: 200px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.textoNF {
+    font-size: 100px;
+    padding-bottom: 85px;
+}
+
+
+
+/****** FIM FOTOS*****/
 
 /***** MAX-840 MIN-601 ******/
 @media (max-width: 840px) {
@@ -267,9 +295,18 @@ footer {
     li, p {
         font-size: 23px;
     }
+
+    /* - - FOTOS - - */
+    .numero404 {
+        font-size: 120px;
+    }
+
+    .textoNF {
+        font-size: 80px;
+    }
 }
 
-/**** MAX-460 MIN-0 *****/
+/**** MAX-460 MIN-374 *****/
 @media (max-width: 460px) {
     .header-main {
         padding: 0px;
@@ -301,4 +338,40 @@ footer {
     .titulo-jogo {
         font-size: 20px;
     }
+
+    /* - - FOTOS - - */
+    .numero404 {
+        font-size: 100px;
+    }
+
+    .textoNF {
+        font-size: 65px;
+    }
+
+}
+
+/**** MAX-373 - MIN-73****/
+@media (max-width: 373px) {
+    .paginas {
+        font-size: 23px;
+    }
+
+    .menu-logo {
+        width: 40px;
+        height: 65px;
+    }
+
+    .titulo {
+        font-size: 60px;
+    }
+
+    .subtitulo {
+        font-size: 40px;
+    }
+
+    /* - - FOTOS - - */
+    .textoNF {
+        font-size: 50px;
+    }
+
 }
